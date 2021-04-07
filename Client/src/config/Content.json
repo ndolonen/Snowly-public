@@ -1,0 +1,58 @@
+{ 
+  "EnglishContent": { 
+    "Header": {
+      "title": "Page Title", 
+      "id": "header",
+      "text": "pagetext here"
+    }, 
+    "Projects": {
+      "title": "Projects",
+      "id": "projects",
+      "projectArr": [
+        {
+          "title": "Snowly",
+          "text": "The repository for this project. Made to be a personal homepage",
+          "url": "https://github.com/ndolonen/snowly-dev"
+        },
+        {
+          "title": "Project Title 2",
+          "text": "Project Description",
+          "url": "https://github.com/username/projectname"
+        }
+      ]
+    },
+    "About": {
+      "title": "About",
+      "id": "about",
+      "text": "about text here"
+    }
+  },
+  "NorwegianContent": {
+    "Header": {
+      "title": "Side Tittel", 
+      "id": "header",
+      "text": "Tittel tekst"
+    }, 
+    "Projects": {
+      "title": "Prosjekter",
+      "id": "projects",
+      "projectArr": [
+        {
+          "title": "Snowly",
+          "text": "Dette er prosjektet som denne hjemmesiden kjører på.",
+          "url": "https://github.com/ndolonen/snowly-public"
+        },
+        {
+          "title": "Prosjekt 2",
+          "text": "prosjekt beskrivelse",
+          "url": "https://github.com/username/exampleproject"
+        }
+      ]
+    },
+    "About": {
+        "title": "Om meg",
+        "id": "about",
+        "text": "about text here"
+    }
+  }
+}

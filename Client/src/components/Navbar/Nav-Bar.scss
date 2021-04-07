@@ -1,0 +1,295 @@
+@media screen and (max-width: 767px){
+    #nav {
+        position: fixed;
+        top: 0px;
+        background-color: #222;
+        width: 100%;
+        z-index: 1;
+        border-bottom: 1px solid #eeeeee33;
+    
+        .nav-item {
+        padding: 10px;
+        display: inline-block;
+        width: 50px;
+        height:20px;
+        color: #cc00ff;
+        text-align: center;
+        text-decoration: none;
+    
+            &:hover {
+            background-color: #333;
+            color: #ffee00;
+            }
+        }
+    }
+    
+    
+    
+    .external-links { 
+        position: absolute;
+        bottom: 45px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);
+        z-index: 2;
+    
+        .logo-container {
+            padding: 2px;
+            background: #eee;
+            border-radius: 40px;
+            border: 1px solid #00000000;
+            margin-left: 0.5em;
+            display: inline-block;
+    
+            &:hover {
+                background: #ccc;
+                border: 1px solid #00000099;
+            }
+            
+            .logo-default {
+                width: 35px;
+                height: 35px;
+                background-position: center;
+                background-size: cover;
+                display:block;
+            }
+    
+            #gitlab-logo {
+                background-image: url(/images/icons/GitLab-logo.png);
+            }
+    
+    
+            #github-logo {
+                background-image: url(/images/icons/GitHub-logo.png);
+            }
+    
+            #linkedin-logo {
+                background-image: url(/images/icons/LinkedIn-logo.png);
+            }
+    
+            #facebook-logo {
+                background-image: url(/images/icons/Facebook-logo.png);
+            }
+    
+            #mail-logo {
+                background-image: url(/images/icons/Mail-logo.png);
+            }
+        }
+    }
+
+    #language-selector {
+        position: fixed;
+        top: 9px;
+        right: 9px;
+        z-index: 3;
+        display: flex;
+      
+        .lang-sel {
+          color: #fff;
+          &:hover {
+            cursor:pointer;
+          }
+        }
+      
+        p {
+          color: #cc00ff;
+          padding-right: 10px;
+        }
+    } 
+}
+
+
+@media screen and (min-width: 768px) {
+    #nav {
+        position: fixed;
+        top: 0px;
+        background-color: #222;
+        width: 100%;
+        z-index: 1;
+        border-bottom: 1px solid #eeeeee33;
+    
+        .nav-item {
+        padding: 10px;
+        display: inline-block;
+        width: 80px;
+        height:20px;
+        color: #cc00ff;
+        text-align: center;
+        text-decoration: none;
+    
+            &:hover {
+            background-color: #333;
+            color: #ffee00;
+            }
+        }
+    }
+    
+    
+    
+    .external-links {
+        position: fixed;
+        top: 50px;
+        right: 20px;
+        z-index: 2;
+    
+        .logo-container {
+            padding: 2px;
+            background: #eee;
+            border-radius: 40px;
+            border: 1px solid #00000000;
+            margin-top: 0.5em;
+    
+            &:hover {
+                background: #ccc;
+                border: 1px solid #00000099;
+            }
+            
+            .logo-default {
+                width: 35px;
+                height: 35px;
+                background-position: center;
+                background-size: cover;
+                display:block;
+            }
+    
+            #gitlab-logo {
+                background-image: url(/images/icons/GitLab-logo.png);
+            }
+    
+    
+            #github-logo {
+                background-image: url(/images/icons/GitHub-logo.png);
+            }
+    
+            #linkedin-logo {
+                background-image: url(/images/icons/LinkedIn-logo.png);
+            }
+    
+            #facebook-logo {
+                background-image: url(/images/icons/Facebook-logo.png);
+            }
+    
+            #mail-logo {
+                background-image: url(/images/icons/Mail-logo.png);
+            }
+        }
+    }
+
+    #language-selector {
+        position: fixed;
+        top: 9px;
+        right: 50px;
+        z-index: 3;
+        display: flex;
+      
+        .lang-sel {
+          color: #fff;
+          &:hover {
+            cursor:pointer;
+          }
+        }
+      
+        p {
+          color: #cc00ff;
+          padding-right: 10px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    #nav {
+        position: fixed;
+        top: 0px;
+        background-color: #222;
+        width: 100%;
+        z-index: 1;
+        border-bottom: 1px solid #eeeeee33;
+    
+        .nav-item {
+        padding: 10px;
+        display: inline-block;
+        width: 80px;
+        height:20px;
+        color: #cc00ff;
+        text-align: center;
+        text-decoration: none;
+    
+            &:hover {
+            background-color: #333;
+            color: #ffee00;
+            }
+        }
+    }
+    
+    
+    
+    .external-links {
+        position: fixed;
+        top: 50px;
+        right: 20px;
+        z-index: 2;
+    
+        .logo-container {
+            padding: 2px;
+            background: #eee;
+            border-radius: 40px;
+            border: 1px solid #00000000;
+            margin-top: 0.5em;
+    
+            &:hover {
+                background: #ccc;
+                border: 1px solid #00000099;
+            }
+            
+            .logo-default {
+                width: 35px;
+                height: 35px;
+                background-position: center;
+                background-size: cover;
+                display:block;
+            }
+    
+            #gitlab-logo {
+                background-image: url(/images/icons/GitLab-logo.png);
+            }
+    
+    
+            #github-logo {
+                background-image: url(/images/icons/GitHub-logo.png);
+            }
+    
+            #linkedin-logo {
+                background-image: url(/images/icons/LinkedIn-logo.png);
+            }
+    
+            #facebook-logo {
+                background-image: url(/images/icons/Facebook-logo.png);
+            }
+    
+            #mail-logo {
+                background-image: url(/images/icons/Mail-logo.png);
+            }
+        }
+    }
+
+    #language-selector {
+        position: fixed;
+        top: 9px;
+        right: 50px;
+        z-index: 3;
+        display: flex;
+      
+        .lang-sel {
+          color: #fff;
+          &:hover {
+            cursor:pointer;
+          }
+        }
+      
+        p {
+          color: #cc00ff;
+          padding-right: 10px;
+        }
+    }
+}

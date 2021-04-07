@@ -1,0 +1,29 @@
+{
+  "Contact": [
+    {
+      "title": "GitLab",
+      "id": "gitlab-logo",
+      "url": "https://gitlab.com/username"
+    },
+    {
+      "title": "GitHub",
+      "id": "github-logo",
+      "url": "https://github.com/username"
+    },
+    {
+      "title": "LinkedIn",
+      "id": "linkedin-logo",
+      "url": "https://www.linkedin.com/in/username/"
+    },
+    {
+      "title": "Facebook",
+      "id": "facebook-logo",
+      "url": "https://www.facebook.com/username/"
+    },
+    {
+      "title": "E-Mail",
+      "id": "mail-logo",
+      "url": "mailto:username@examplemail.com"
+    }
+  ]
+}
